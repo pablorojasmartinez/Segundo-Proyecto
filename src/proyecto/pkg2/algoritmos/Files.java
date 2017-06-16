@@ -35,6 +35,7 @@ public class Files {
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
             String linea;
+<<<<<<< HEAD
             while ((linea = br.readLine()) != null) {
                 fileList.add(linea + "\n");
                 System.out.println(fileList);
@@ -47,6 +48,33 @@ public class Files {
                 }//for i
             }//while
             br.close();
+=======
+
+            while ((linea = br.readLine()) != null) {
+                fileList.add(linea + "\n");
+                System.out.println(fileList);
+                br.close();
+                
+                int count = 0;
+                boolean flag = true;
+                
+                for (int i = 0; i < fileList.size(); i++) {
+                    String meth = fileList.get(i);
+
+                    for (int j = 0; j < meth.length(); j++) {
+                        if (flag) {
+                            
+                            String word = meth.split(" ")[count];
+                            System.out.println(word.charAt(i) + " =" + word.codePointAt(i));
+                            count++;
+//                            if (count == word.length()) {
+//                                flag = false;
+//                            }//if
+                        }//if
+                    }//for j
+                }//for i
+            }//while
+>>>>>>> 6301e7e29a4747ed682ef53507a8db3a089e103c
         } catch (IOException e) {
         }
     }//readFile

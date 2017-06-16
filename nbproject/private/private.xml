@@ -2,6 +2,13 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+            <file>file:/C:/Users/Pablo%20Rojas/Desktop/Proyecto%202%20Algoritmos/src/proyecto/pkg2/algoritmos/BinaryTree.java</file>
+            <file>file:/C:/Users/Pablo%20Rojas/Desktop/Proyecto%202%20Algoritmos/src/proyecto/pkg2/algoritmos/Node.java</file>
+        </group>
+>>>>>>> 6301e7e29a4747ed682ef53507a8db3a089e103c
     </open-files>
 </project-private>
