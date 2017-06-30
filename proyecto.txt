@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 soy hombre, he nacido, tengo piel y esperanza. no soy dios: soy un hombre.
+=======
+soy hombre, he nacido, tengo piel y esperanza. no soy dios: soy un hombre. 
+>>>>>>> df1afcb5a25364aa163b73be490cc1b69bd21bc7

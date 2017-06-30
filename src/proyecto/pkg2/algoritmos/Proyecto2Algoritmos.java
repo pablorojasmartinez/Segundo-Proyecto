@@ -5,8 +5,11 @@
  */
 package proyecto.pkg2.algoritmos;
 
+<<<<<<< HEAD
 import Data.Metods;
 import GUI.VentanaPrincipal;
+=======
+>>>>>>> df1afcb5a25364aa163b73be490cc1b69bd21bc7
 import java.io.File;
 
 /**
@@ -19,6 +22,7 @@ public class Proyecto2Algoritmos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+<<<<<<< HEAD
         Metods metods=new Metods();
         VentanaPrincipal vP=new VentanaPrincipal();
         vP.setVisible(true);
@@ -29,6 +33,12 @@ public class Proyecto2Algoritmos {
 //     
 //        Files leerArchivo = new Files();
 //        leerArchivo.readFile();
+=======
+        
+     
+        Files leerArchivo = new Files();
+        leerArchivo.readFile();
+>>>>>>> df1afcb5a25364aa163b73be490cc1b69bd21bc7
     }
     
 }

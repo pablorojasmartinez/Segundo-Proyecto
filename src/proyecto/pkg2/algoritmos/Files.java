@@ -31,12 +31,20 @@ public class Files {
 
     File file = new File("proyecto.txt");
 
+<<<<<<< HEAD
     public String readFile() {
         String linea="";
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
             
 //<<<<<<< HEAD
+=======
+    public void readFile() {
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(file));
+            String linea;
+<<<<<<< HEAD
+>>>>>>> df1afcb5a25364aa163b73be490cc1b69bd21bc7
             while ((linea = br.readLine()) != null) {
                 fileList.add(linea + "\n");
                 System.out.println(fileList);
@@ -44,12 +52,20 @@ public class Files {
                     String meth = fileList.get(i);
                     String word[] = meth.split(" ");
                     for (int j = 0; j < word.length; j++) {
+<<<<<<< HEAD
                         System.out.println("letra= "+word[j].charAt(0) + " palabra= "+word[j].toString()+" =" + word[j].codePointAt(0));
+=======
+                        System.out.println(word[j].charAt(0) + " =" + word[j].codePointAt(0));
+>>>>>>> df1afcb5a25364aa163b73be490cc1b69bd21bc7
                     }//for j
                 }//for i
             }//while
             br.close();
+<<<<<<< HEAD
 ////=======
+=======
+=======
+>>>>>>> df1afcb5a25364aa163b73be490cc1b69bd21bc7
 
             while ((linea = br.readLine()) != null) {
                 fileList.add(linea + "\n");
@@ -75,9 +91,15 @@ public class Files {
                     }//for j
                 }//for i
             }//while
+<<<<<<< HEAD
 //>>>>>>> 6301e7e29a4747ed682ef53507a8db3a089e103c
         } catch (IOException e) {
         }
         return linea;
+=======
+>>>>>>> 6301e7e29a4747ed682ef53507a8db3a089e103c
+        } catch (IOException e) {
+        }
+>>>>>>> df1afcb5a25364aa163b73be490cc1b69bd21bc7
     }//readFile
 }//class

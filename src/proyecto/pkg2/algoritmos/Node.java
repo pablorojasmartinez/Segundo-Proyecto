@@ -12,7 +12,10 @@ package proyecto.pkg2.algoritmos;
  */
 public class Node {
     private int dato;
+<<<<<<< HEAD
     private String word;
+=======
+>>>>>>> df1afcb5a25364aa163b73be490cc1b69bd21bc7
     private Node left;
     private Node right;
     
